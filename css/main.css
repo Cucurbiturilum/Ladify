@@ -1,0 +1,97 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-image: url(../img/Background.png);
+  background-size: cover;
+  font-family: "Manrope", sans-serif;
+  min-height: 866px;
+}
+header .nav {
+  padding: 15px 0;
+  max-width: 1200px;
+  margin: auto;
+}
+header .nav .logo {
+  margin-right: 16px;
+  display: inline-block;
+}
+header .nav .nav-list {
+  list-style: none;
+  display: inline-block;
+  margin: 0 16px 0 0;
+}
+header .nav .nav-list li {
+  display: inline-block;
+}
+header .nav .nav-list li .nav-link {
+  padding: 0 16px 5px 16px;
+  text-decoration: none;
+  color: #18191F;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 2px solid transparent;
+}
+header .nav .nav-list li .nav-link:hover {
+  border-color: #8C30F5;
+  color: #8C30F5;
+}
+header .nav .download-btn {
+  display: inline-block;
+  float: right;
+}
+header .nav .download-btn:after {
+  content: "";
+  clear: both;
+}
+header .nav .download-btn .download-item {
+  margin-right: 12px;
+  display: inline-block;
+}
+header .hero {
+  max-width: 1200px;
+  margin: 75px auto;
+  height: 700px;
+  background-image: url(../img/Phone-Mockup.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+header .hero .hero-content {
+  display: inline-block;
+  width: 70%;
+  padding-top: 100px;
+}
+header .hero .hero-content .title {
+  font-family: "Manrope", sans-serif;
+  font-weight: 800;
+  font-size: 72px;
+  line-height: 98px;
+  color: #18191F;
+  margin-bottom: 32px;
+}
+header .hero .hero-content .btn-start {
+  background: #8C30F5;
+  border-radius: 8px;
+  font-family: "Manrope", sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #FFFFFF;
+  padding: 16px 30px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/*# sourceMappingURL=main.css.map */
